@@ -1,9 +1,0 @@
-name: XPBank
-version: 1.0-SNAPSHOT
-main: me.meerzean.xpbank.XPBank
-api-version: 1.14
-authors: [ Meerzean ]
-description: a plugin to store your experience points!
-commands:
-  xpbank:
-    description: A Plugin to open XPBank menu
