@@ -21,7 +21,7 @@ public class menuListener implements Listener {
 
     public int getPlayerXPAmount(Player player) {
         File folder = new File("plugins/XPBank/playerdata");
-        File playerFile = new File(folder, player.getPlayer().getUniqueId() + ".yml");
+        File playerFile = new File(folder, player.getName() + ".yml");
         FileConfiguration yaml = YamlConfiguration.loadConfiguration(playerFile);
         int xpInBank = yaml.getInt("xpInBank.xp");
         return xpInBank;
